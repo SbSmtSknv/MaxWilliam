@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    width: 1600px;
+    max-width: 1600;
+    margin: 0;
+    padding: 0;
+    background-color: #2F2F2F;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 ,h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 900px;
+}
+
+header img {
+    position: absolute;
+}
+
+.head {
+    justify-content: space-between;
+    padding: 50px 200px 50px 200px;
+    height: 30px;
+    display: flex;
+}
+
+.head * {
+    position: relative;
+    color: white;
+}
+
+.head div {
+    position: relative;
+}
+
+.head a {
+    height: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.head p {
+    height: 28px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.menu {
+    height: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.head-box {
+    padding: 55px 205px 40px 205px;
+    width: 470px;
+}
+
+.h {
+    font-weight: 700;
+}
+
+h1 {
+    width: 470px;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.head-box * {
+    position: relative;
+    color: white;
+}
+
+.head-box p {
+    width: 384px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.s {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.button-box {
+    margin: 0 200px 50px 200px;
+    display: flex;
+    gap: 69px;
+}
+
+.button-box * {
+    position: relative;
+}
+
+.a {
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    width: 320px;
+    padding: 19px 0;
+    display: block;
+    color: #282828;
+    font-size: 17px;
+    font-weight: 700;
+    background-image: linear-gradient(#FFDD7D, #FFC727);
+}
+
+.place p {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    width: 282px;
+}
+
+.place {
+    margin-top: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #282828;
+    height: 42px;
+    width: 282px;
+    align-items: center;
+    display: flex;
+    gap: 6px;
+}
+
+.place div {
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: #1CED0A;
+}
+
+.protect {
+    margin: 100px 200px;
+}
+
+.protect h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 14;
+}
+
+.protect span {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.protect img {
+    margin: 40px 0 184px 100px;
+}
+
+.chose h2 {
+    width: 519px;
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+.chose span {
+    font-weight: 700;
+}
+
+.chose p {
+    color: white;
+    margin: 30px 0;
+}
+
+.shilds p {
+    margin: 0;
+    color: white;
+}
+
+.shild-box {
+    margin-bottom: 11px;
+    width: 486px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 11px;
+    display: flex;
+}
+
+.shild-box img {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.offer img {
+    position: absolute;
+}
+
+.cir-a {
+    margin: 400px 0 0 80px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    width: 320px;
+    padding: 19px 0;
+    display: block;
+    color: #282828;
+    font-size: 17px;
+    font-weight: 700;
+    background-image: linear-gradient(#FFDD7D, #FFC727);
+}
+
+.chose-wrap {
+    width: 1600px;
+    height: 765px;
+    padding: 100px 200px;
+    background: url(https://lirp.cdn-website.com/ec2299ed/dms3rep/multi/opt/vCsglh0TLGFVwe62voe4_Video+portada.v2.0000000-1920w.jpg);
+    display: flex;
+    gap: 85px;
+}
+
+.offer {
+    padding-top: 100px;
+}
+.circle {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: url(https://outsons.com/wp-content/uploads/2019/09/mohamad-khosravi-ikjvPfC3pbI-unsplash-1-scaled.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotateText 40s linear infinite;
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: 24px;
+    transform-origin: 0 240px;
+    color: white;
+}
+
+.po {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+}
+
+

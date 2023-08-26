@@ -1,0 +1,89 @@
+.over-wrap h2 {
+    color: white;
+    width: 840px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.over-wrap span {
+    font-weight: 700;
+}
+
+.over-wrap {
+    margin: 170px 200px;
+}
+
+.cases {
+    display: flex;
+    gap: 123px;
+    margin: 0 0 40px 22px;
+}
+
+.case p {
+    padding-top: 5px;
+    color: grey;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.case a {
+    font-weight: 700;
+    color: white;
+}
+
+.case-a {
+    margin-left: 500px;
+    text-align: center;
+    width: 200px;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0;
+    color: white;
+    border: 1px solid white;
+}
+
+.left-wing {
+    padding: 170px 200px;
+    width: 980px;
+    height: 680px;
+    background-color: #909090;
+}
+
+.bot {
+    display: flex;
+    gap: 40px;
+    margin-top: 151px;
+}
+
+.high h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.high p {
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 40%;
+}
+
+.bot-left, .bot-right {
+    width: 260px;
+}
+
+.bot-left p, .bot-right p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.bot-left a, .bot-right a {
+    margin-bottom: 6px;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-wrap {
+    display: flex;
+}
